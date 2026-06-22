@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности — Otviko</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --zima:#1BA1C5;
+    --zima-light:#5BC3DD;
+    --accent:#E8483D;
+    --ink:#0B1417;
+    --ink-soft:#17212B;
+    --muted:#6B8A92;
+    --paper:#ffffff;
+    --paper-tint:#E8F4F7;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--paper-tint);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px 80px;}
+  header{
+    background:linear-gradient(135deg,var(--ink) 0%,var(--ink-soft) 60%,#0E3A47 100%);
+    color:var(--paper);
+    padding:56px 20px 48px;
+    text-align:center;
+  }
+  .brand{
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:700;
+    font-size:30px;
+    letter-spacing:-0.5px;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+  }
+  .brand .dot{width:11px;height:11px;border-radius:50%;background:var(--accent);display:inline-block;}
+  header h1{
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:600;
+    font-size:22px;
+    margin:18px 0 6px;
+    color:var(--zima-light);
+  }
+  header .meta{font-size:13px;color:#7d8e9a;margin-top:8px;}
+  .card{
+    background:var(--paper);
+    border-radius:16px;
+    padding:32px 30px;
+    margin-top:-28px;
+    box-shadow:0 12px 40px rgba(11,20,23,.10);
+    position:relative;
+  }
+  h2{
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:600;
+    font-size:19px;
+    color:var(--ink);
+    margin:34px 0 10px;
+    padding-top:8px;
+  }
+  h2:first-of-type{margin-top:6px;}
+  h2 .num{color:var(--zima);margin-right:8px;}
+  p{margin:10px 0;}
+  ul{margin:10px 0;padding-left:22px;}
+  li{margin:7px 0;}
+  strong{font-weight:600;}
+  a{color:var(--zima);text-decoration:none;border-bottom:1px solid rgba(27,161,197,.35);}
+  a:hover{border-bottom-color:var(--zima);}
+  .lead{
+    background:var(--paper-tint);
+    border-left:3px solid var(--zima);
+    border-radius:0 10px 10px 0;
+    padding:16px 18px;
+    font-size:15px;
+    margin:8px 0 4px;
+  }
+  .note{
+    background:#FDF0EF;
+    border-left:3px solid var(--accent);
+    border-radius:0 10px 10px 0;
+    padding:14px 18px;
+    font-size:14px;
+    color:#7a3a35;
+    margin:22px 0 4px;
+  }
+  .placeholder{
+    background:#FFF7E6;
+    border:1px dashed #E0A93D;
+    border-radius:8px;
+    padding:2px 8px;
+    font-size:13px;
+    color:#8a6516;
+    font-weight:500;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:13px;
+    margin-top:36px;
+  }
+  .divider{height:1px;background:linear-gradient(90deg,transparent,rgba(27,161,197,.3),transparent);margin:30px 0 6px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Otviko<span class="dot"></span></div>
+  <h1>Политика конфиденциальности</h1>
+  <div class="meta">Версия 1.0 (бета) · действует с момента публикации</div>
+</header>
 
+<div class="wrap">
+<div class="card">
+
+  <div class="lead">
+    Otviko (далее — «Сервис», «бот») — Telegram-бот, который по подключению через функцию
+    Telegram «Бизнес-аккаунт / автоматизация чатов» отвечает на входящие сообщения в личных
+    чатах от имени владельца аккаунта. Эта политика объясняет, какие данные Сервис обрабатывает,
+    зачем и кому они передаются.
+  </div>
+
+  <h2><span class="num">1.</span>Кто обрабатывает данные</h2>
+  <p>
+    Оператором обработки данных в рамках работы Сервиса выступает владелец Сервиса:
+    <strong>самозанятый Евстратенко Павел Алексеевич</strong>.
+    Контакт для обращений по вопросам обработки персональных данных:
+    <a href="mailto:win2global@pm.me">win2global@pm.me</a>.
+  </p>
+  <p>
+    Владелец Telegram-аккаунта, подключивший бота к своим чатам, в отношении сообщений своих
+    собеседников выступает оператором персональных данных, а Сервис — лицом, обрабатывающим
+    данные по его поручению.
+  </p>
+
+  <h2><span class="num">2.</span>Какие данные обрабатываются</h2>
+  <p>Для формирования автоответа Сервис обрабатывает:</p>
+  <ul>
+    <li><strong>текст входящих сообщений</strong> в тех чатах, которые владелец явно выбрал для автоответов;</li>
+    <li><strong>идентификатор подключения</strong> бизнес-аккаунта Telegram и идентификатор владельца;</li>
+    <li><strong>настройки владельца</strong>: тон общения, профиль, список частых вопросов (FAQ), тариф.</li>
+  </ul>
+  <p>
+    Сервис <strong>не запрашивает и не собирает</strong> пароли, платёжные реквизиты, контакты из
+    адресной книги или содержимое чатов, не выбранных владельцем для автоответов.
+  </p>
+
+  <h2><span class="num">3.</span>Зачем данные обрабатываются</h2>
+  <ul>
+    <li>сформировать и отправить ответ на входящее сообщение от имени владельца;</li>
+    <li>применять заданные владельцем тон и FAQ;</li>
+    <li>соблюдать лимиты тарифа и защищать Сервис от злоупотреблений (антиспам, ограничение частоты).</li>
+  </ul>
+
+  <h2><span class="num">4.</span>Кому передаются данные</h2>
+  <p>
+    Для генерации ответа текст входящего сообщения и системные настройки передаются
+    AI-провайдеру, который формирует текст ответа:
+  </p>
+  <ul>
+    <li>
+      <strong>GigaChat (ПАО Сбербанк, Российская Федерация)</strong>.
+      Обработка происходит на инфраструктуре, расположенной в Российской Федерации;
+      трансграничная передача данных не осуществляется.
+    </li>
+  </ul>
+  <p>
+    Иным третьим лицам данные не передаются, кроме случаев, прямо предусмотренных
+    законодательством. Подключая бота, владелец даёт согласие на передачу обрабатываемых
+    сообщений указанному AI-провайдеру в объёме, необходимом для формирования ответа.
+  </p>
+
+  <h2><span class="num">5.</span>Сколько данные хранятся</h2>
+  <p>
+    Текст сообщений обрабатывается для формирования ответа и <strong>не хранится дольше, чем
+    необходимо</strong> для этой цели. Сервис сохраняет технические и настроечные данные
+    (идентификаторы, тариф, настройки владельца, статистику использования) на время действия
+    подключения. После отключения бота настроечные данные удаляются или обезличиваются в разумный срок.
+  </p>
+
+  <h2><span class="num">6.</span>Права пользователя и владельца</h2>
+  <ul>
+    <li>
+      <strong>отключить бота в любой момент</strong> — через настройки Telegram или ограничив
+      список чатов; после этого Сервис немедленно перестаёт обрабатывать сообщения;
+    </li>
+    <li>запросить сведения об обработке своих данных и их удаление по контакту из раздела 1;</li>
+    <li>отозвать согласие на обработку.</li>
+  </ul>
+
+  <h2><span class="num">7.</span>Ответственность владельца</h2>
+  <p>
+    Владелец аккаунта самостоятельно отвечает за содержание заданных им FAQ и настроек,
+    а также за уместность автоответов в своих чатах и за наличие необходимых правовых оснований
+    для обработки сообщений своих собеседников.
+  </p>
+
+  <h2><span class="num">8.</span>Изменения политики</h2>
+  <p>
+    При значимых изменениях в работе Сервиса или объёме обработки данных политика обновляется,
+    а владельцу направляется уведомление с возможностью отказаться от дальнейшего использования.
+  </p>
+
+  <div class="note">
+    <strong>Статус документа.</strong> Это бета-версия для периода тестирования Сервиса.
+    Перед коммерческим запуском и приёмом платежей текст подлежит юридической проверке,
+    в том числе на предмет необходимости уведомления Роскомнадзора об обработке персональных данных.
+  </div>
+
+  <div class="divider"></div>
+  <footer>
+    Otviko · Политика конфиденциальности · v1.0&nbsp;(бета)
+  </footer>
+
+</div>
+</div>
+</body>
+</html>
